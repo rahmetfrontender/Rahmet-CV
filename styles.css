@@ -1,0 +1,199 @@
+dbody {
+    background-color: floralwhite;
+    color: rgb(12, 9, 9);
+
+    font-size: 17px;
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+a {
+
+    color: blueviolet;
+
+}
+a:hover {
+
+    text-decoration: unset;
+}
+
+a:active {
+    color: yellowgreen;
+}
+.avatar {
+    width: 150px;
+    border-radius: 31px;
+    box-shadow: 4px 4px 14px rgb(0, 0, 0);
+}
+ .info  {
+     display: flex;
+     margin-bottom: 20px;
+ }
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+    .info-text {
+     margin-left: 45px;
+ }
+
+ .info-text h4 {
+     margin-bottom: 15px;
+ }
+ .info p {
+
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 25px;
+ }
+
+ .container {
+     width: 750px;
+     margin: auto;
+     padding-top: 30px;
+ }
+
+/* .social {
+    background: green;
+
+    padding: 15px 20px;
+    border: 5px solid red;
+    border-bottom-style: 15px;
+    margin: 5px;
+    border-bottom-style: groove;
+    border-top-width: 15;
+    border-right-color: blue;
+
+ }
+.box-model > div {
+    float: left;
+    background: black;
+    height: 200px;
+    border: 4px solid red; 
+    width: 25%;
+    box-sizing: border-box;
+}*/
+.bg-pink {
+    background: #ffc4c4;
+}
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+
+}
+.bg-red {
+    background: #ffe5e5;
+}
+.bg-orange {
+    background: orange;
+  }
+  
+.card {
+    padding: 15px 20px;   
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+ .list {
+
+padding: 0 20px;
+ }
+
+ .list li {
+     color: #86898f;
+     margin-bottom: 10px;
+
+ }
+ .table {
+     width: 75%;
+ }
+.table td {
+    padding-bottom: 15px;
+}
+.table td:nth-child(1) {
+    color: darkblue;
+}
+/*.table tr:nth-child(odd) {
+    background: yellowgreen;
+}*/
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+.link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solıd #ccc;
+}
+.contact h2 {
+    text-align: center;
+}
+.form-group label {
+    display: block;
+    font-size: 30;
+    color: #86898f;
+}
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;;
+    margin-right: 0px;
+}
+.row > .form-group {
+    width: 50%;
+    margin-bottom: 0px;
+}
+
+.row > .form-group:first-child {
+    margin-right: 30px;
+}
+
+.btn {
+    background: rgb(0, 0, 0);
+    padding: 15px  20px;
+    color: rgb(255, 247, 247);
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.9;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+   
